@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#ffcd40"
+    tools:context="com.example.luis.taxiapp08.Reclamo">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="244dp"
+            android:layout_height="84dp"
+            android:id="@+id/imageView8"
+            android:background="@mipmap/app_taxi" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            style="@android:style/Animation"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="@string/sugerenciaOReclamo"
+            android:textColor="@color/primary_dark_material_dark" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editReclamoMensaje"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15" />
+
+        <TextView
+            style="@android:style/Animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="@string/fecha"
+            android:textColor="@color/primary_dark_material_dark" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editReclamoFecha" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonlisto"
+            android:id="@+id/buttonReclamoListo"
+            android:layout_gravity="center_horizontal"
+            style="@android:style/Animation" />
+    </LinearLayout>
+</FrameLayout>

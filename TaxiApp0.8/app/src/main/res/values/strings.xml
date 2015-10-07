@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TaxiApp0.8</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">INICIAR</string>
+    <string name="newUser">NUEVO</string>
+    <string name="servicios">SERVICIOS</string>
+    <string name="title_activity_nuevo_usuario">NuevoUsuario</string>
+    <string name="title_activity_servicios">Servicios</string>
+
+    <string name="title_activity_pedir_taxi">PedirTaxi</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_reclamo">Reclamo</string>
+    <string name="title_activity_login">Login</string>
+    <string name="pedirTaxi">SOLICITAR</string>
+    <string name="sugerenciaOReclamo">Cuentanos</string>
+    <string name="reclamoMenu">Reclamo</string>
+    <string name="email">Email</string>
+    <string name="fecha">Fecha</string>
+    <string name="detalle">Detalle</string>
+    <string name="numeroTaxis">Numero taxis</string>
+    <string name="buttonlisto">LISTO</string>
+    <string name="nombre">Nombre</string>
+    <string name="title_activity_mostrar_peticiones">MostrarPeticiones</string>
+    <string name="misPedidos">MIS PEDIDOS</string>
+    <string name="bienvenido">Beinvenido</string>
+    <string name="soyNuevo">SOY NUEVO</string>
+    <string name="Usuario">Usuario</string>
+    <string name="password">Pasword</string>
+    <string name="nuestroServicio">Nuestro Servicio</string>
+    <string name="nuestroReclamos">SUGERENCIAS Y RECLAMOS</string>
+    <string name="nuestroHistorias">Cuentanos tu Experiencia</string>
+    <string name="nuestroCuentanosTuHistoria">CUENTANOS</string>
+    <string name="buscasUnTaxi">Tienes dificultades para trasladarte?.
+        Se te hace difícil manejar los gastos de transporte?.
+        Utiliza nuestro servicio y comprobarás la excelencia de nuestro servicio.
+        Se aplican descuento por tarifas por volumen.</string>
+    <string name="tienesAlgunReclamo">Queremos escuchar todas tus consultas
+        y reclamos porque tenemos un compromiso contigo para brindarte
+        el mejor de los servicios.\n
+        Permitenos mejorar con tus sugerencias.\n
+        Atte. AppTaxi.
+    </string>
+    <string name="cuentanosTuExperiencia">Utiliza este espacio para contarnos
+        tu experiencia con nuestro servicio. Cualquier comentario es bien recibido.
+    </string>
+    <string name="nuevoUsuarioNombre">Nombre</string>
+    <string name="nuevoUsuarioEmail">Email</string>
+    <string name="nuevoUsuarioTelefono">Telefono</string>
+    <string name="nuevoUsuarioDireccion">Direccion</string>
+    <string name="nuevoUsuarioPassword">Password</string>
+    <string name="nuevoUsuarioSexo">Sexo</string>
+    <string name="lugar">Lugar</string>
+</resources>

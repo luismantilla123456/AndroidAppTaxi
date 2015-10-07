@@ -1,0 +1,241 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffcd40"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/principal"
+        android:gravity="center"
+        android:scrollIndicators="bottom"
+        android:layout_alignParentTop="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="62dp"
+                android:id="@+id/imageView2"
+                android:layout_gravity="left|top"
+                android:background="@mipmap/logo1" />
+
+            <Button
+                android:layout_width="94dp"
+                android:layout_height="83dp"
+                android:text="@string/login"
+                android:id="@+id/buttonInicioSession"
+                android:layout_gravity="right|top"
+                android:textColor="#ffffff"
+                style="@android:style/Animation"
+                android:allowUndo="false"
+                android:background="@mipmap/us_servicios"
+                android:singleLine="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:longClickable="false"
+                android:textStyle="bold"
+                android:gravity="bottom|center" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/ciudad"
+            android:contentDescription="ciudad png" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nuestroServicio"
+                            android:id="@+id/textView11"
+                            android:textColor="#0d476a"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp"
+                            android:paddingTop="15dp">
+
+                            <ImageView
+                                android:layout_width="137dp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imageView4"
+                                android:layout_gravity="left|top"
+                                android:background="@mipmap/taxistaxd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/buscasUnTaxi"
+                                android:id="@+id/textView10"
+                                android:layout_gravity="center_horizontal|top"
+                                android:textColor="#010101"
+                                android:paddingLeft="10dp" />
+
+                        </LinearLayout>
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pedirTaxi"
+                            android:id="@+id/buttonMainPedirTaxi" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nuestroReclamos"
+                            android:id="@+id/textView12"
+                            android:textColor="#0d476a"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp"
+                            android:paddingTop="15dp" >
+
+                            <ImageView
+                                android:layout_width="158dp"
+                                android:layout_height="136dp"
+                                android:id="@+id/imageView5"
+                                android:layout_gravity="left|top"
+                                android:background="@mipmap/reclamo" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tienesAlgunReclamo"
+                                android:id="@+id/textView13"
+                                android:layout_gravity="center_horizontal|top"
+                                android:textColor="#010101"
+                                android:paddingLeft="10dp" />
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nuestroReclamos"
+                            android:id="@+id/buttonMainReclamo" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nuestroHistorias"
+                            android:id="@+id/textView14"
+                            android:textColor="#0d476a"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp"
+                            android:paddingTop="15dp" >
+
+                            <ImageView
+                                android:layout_width="158dp"
+                                android:layout_height="136dp"
+                                android:id="@+id/imageView6"
+                                android:layout_gravity="left|top"
+                                android:background="@mipmap/experiencia" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/cuentanosTuExperiencia"
+                                android:id="@+id/textView15"
+                                android:layout_gravity="center_horizontal|top"
+                                android:textColor="#010101"
+                                android:paddingLeft="10dp" />
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nuestroCuentanosTuHistoria"
+                            android:id="@+id/buttonMainCuentanos" />
+                    </LinearLayout>
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

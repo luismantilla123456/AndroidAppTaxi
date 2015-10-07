@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luis.taxiapp08" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NuevoUsuario"
+            android:label="@string/title_activity_nuevo_usuario" >
+        </activity>
+        <activity
+            android:name=".Servicios"
+            android:label="@string/title_activity_servicios" >
+        </activity>
+        <activity
+            android:name=".PedirTaxi"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_pedir_taxi"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".Reclamo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_reclamo"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".MostrarPeticiones"
+            android:label="@string/title_activity_mostrar_peticiones" >
+        </activity>
+    </application>
+
+</manifest>
